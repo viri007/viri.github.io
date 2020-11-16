@@ -1,0 +1,71 @@
+@font-face {
+    font-family: leone;
+    src: url(LEONE-Regular_LMartens.otf) format("opentype");
+  }
+
+body {
+  background-color: #801D5D;
+}
+
+p {
+  text-align: justify;
+}
+
+.nothome {
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #A3C370;
+}
+
+.jumbotron {
+  background-color: #ABA5C9;
+}
+
+.shapecontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer {
+  background-color: #ABA5C9;
+  padding: 25px;
+}
+
+
+
+#work {
+  background-color: #FBE2E8;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  background-color: #ABA5C9;
+  margin-top: 0;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#heart1 {
+  fill: #A3C370;
+  height: 50px;
+  width: 50px;
+  margin: 25px;
+  margin-top: 0px;
+}
+#heart2 {
+  fill: #A3C370;
+  height: 50px;
+  width: 50px;
+  margin: 25px;
+  margin-top: 0px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Viri Garcia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<script src="anime-master/anime-master/lib/anime.min.js"></script>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand active" href="index.html" style="color:black">VG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" style="color:black">Home</a></li>
+        <li><a href="about.html" style="color:black">About</a></li>
+        <li><a href="contact.html" style="color:black">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+    <h1>Web Development, Coding, and Data </h1>
+</div>
+
+<div class="shapecontainer">
+  <svg id="heart1" viewBox="0 0 32 29.6">
+    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+  </svg>
+  <svg id="heart2" viewBox="0 0 32 29.6">
+    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+  </svg>
+</div>
+<script>
+  anime({
+    targets:'#heart1',
+    translateX: 750,
+    rotateZ: 360,
+    scale:1.5,
+    duration: 3000,
+    loop: false
+  })
+  anime({
+    targets:'#heart2',
+    translateX: -750,
+    rotateZ: 360,
+    scale: 1.5,
+    duration: 3000,
+    loop: false
+  })
+</script>
+
+<div class="container nothome">
+  <div class="row justify-content-center">
+    <div class="col-2">
+        <h2>Market Buddy</h2>
+          <p>Market Buddy is a progressive web app (PWA) that my team and I created as a final project for User Experience and Software Development Studio class.
+            Our goal was to create a PWA for the local farmer's market by choosing a problem to target based on interviews. The problem we tackled through our app
+            was people's lack of reliable transportation. We drew out several prototypes and solutions, and decided to choose an approach that would accompany
+            users through the whole process of a trip to the farmer's market.<br>
+            Market Buddy prompts users to pick a date to go to the farmer's market, as well as the reasons they're going. Once a user creates their trip, Market Buddy
+            stores that information and when the day the user chose draws near, the user will receive a notification as a reminder. Market Buddy also uses geolocation 
+            to confirm whether or not a user visited the farmer's market, or will ask the user whether or not they went. If they did, they recevice a badge and accumulate points.<br>
+            We ran several user tests each step of the prototyping and implementation process, each one helping us with small details we may have missed. We included the points
+            system so users would have some gamification to motivate them. Market Buddy was implemented using Vue.js, Semantic Vue, Javascript, HTML, CSS, and JSON.<br>
+            Market Buddy can be accessed <a href="https://blue-magic-project.herokuapp.com/" style="color:white; font-weight: bold;">here.</a>
+          </p>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-2">
+      <img src="images/m2-initial-diagram.JPG">
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-2">
+      <h2>Mala Silvarum</h2>
+        <p>Mala Silvarum is a very simple text-based game that I created as a project for a computer science class using C++.
+          The first step I took to create my game, Mala Silvarum, was come up with a path-and-choice-based story that would 
+          provide more than one way to get a game over, but only one way to access the game’s ending. To track my story in a clean, 
+          interactive way, I used Twine, as shown in the picture.<br>
+          Mala Silvarum involved overloading operators, creating files, and implementing a way for users to unlock an "Extras" choice 
+          on the main menu in such a simple game.
+        </p>
+        <p>Mala Silvarum can be downloaded <a href="mala_silvarum.zip" style="color:white; font-weight: bold;">here</a></p>
+    </div>
+    <div class="col-2">
+      <img src="images/twine.JPG">
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-2">
+      <h2>Data</h2>
+        <p>I have analyzed and visualized data collected in large amounts, whether it be for class or small personal projects.
+          A small team and I analyzed presidential candidates' Twitter statistics in 2019 and compared our findings to popularity polls
+          at the time. The following are some of the numbers that we looked at and compared. This involved scraping candidates' tweet
+          statistics using tweepy, then analyzing everything we compiled<br>
+          <img src="images/followers1.png"><br>
+          <img src="images/likes1.png"><br>
+        </p>Another class assignment involved analyzing the location of every UPS facility in the country (excluding Alaska and Hawaii)
+        to find population centers, as well as why there were gaps in certain areas. The following is a plot of all the coordinates I
+        looked at, where one can clearly see some of the country's geography and how it affects population.<br>
+          <img src="images/kclusters.png">
+        </p>
+    </div>
+  </div>
+
+</div>
+</body>

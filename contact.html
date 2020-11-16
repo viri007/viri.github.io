@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Viri Garcia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<script src="anime-master/anime-master/lib/anime.min.js"></script>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html" style="color:black">VG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" style="color:black">Home</a></li>
+        <li><a href="about.html" style="color:black">About</a></li>
+        <li class="active"><a href="contact.html" style="color:white">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+    <h1>Contact Me</h1>
+</div>
+<div class="shapecontainer">
+  <svg id="heart1" viewBox="0 0 32 29.6">
+    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+  </svg>
+  <svg id="heart2" viewBox="0 0 32 29.6">
+    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+  </svg>
+</div>
+<script>
+  anime({
+    targets:'#heart1',
+    translateX: 775,
+    rotateZ: 360,
+    scale:1.5,
+    duration: 3000,
+    loop: false
+  })
+  anime({
+    targets:'#heart2',
+    translateX: -775,
+    rotateZ: 360,
+    scale: 1.5,
+    duration: 3000,
+    loop: false
+  })
+</script>
+
+<div class="container nothome">
+  <div class="row justify-content=center">
+    <div class="col-2">
+      <h2>Want to Get in Touch?</h2>
+      <p>If you want to collab, ask me anything, or just talk to me, the button below is there just for you.</p>
+      <button type="button" class="btn btn-light"><a href="mailto:vg235@cornell.edu" target="_blank" style="color:black">Press to E-Mail Me!</a></button>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center footer">
+  <p>Website made with love by Viri Garcia</p>
+</footer>
+</body>

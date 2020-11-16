@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Viri Garcia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<script src="anime-master/anime-master/lib/anime.min.js"></script>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html" style="color:black">VG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" style="color:black">Home</a></li>
+        <li class="active"><a href="about.html" style="color:white">About</a></li>
+        <li><a href="contact.html" style="color:black">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+    <h1>About Me</h1>
+</div>
+<div class="shapecontainer">
+  <svg id="heart1" viewBox="0 0 32 29.6">
+    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+  </svg>
+  <svg id="heart2" viewBox="0 0 32 29.6">
+    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+    c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+  </svg>
+</div>
+<script>
+  anime({
+    targets:'#heart1',
+    translateX: 775,
+    rotateZ: 360,
+    scale:1.5,
+    duration: 3000,
+    loop: false
+  })
+  anime({
+    targets:'#heart2',
+    translateX: -775,
+    rotateZ: 360,
+    scale: 1.5,
+    duration: 3000,
+    loop: false
+  })
+</script>
+
+<div class="container nothome">
+  <div class="row justify-content-center">
+    <div class="col-2">
+      <h2> Who I'm, What I do</h2>
+      <p>I grew up in a small town in south Texas until 2016, when I moved to Ithaca, NY for 4 years to study Information Science
+        at Cornell University. During my time at Cornell, I feel like I tried many new things, and don't regrete any of that at all.
+        I became an editor of the arts section of the school paper, president of coffee club, and vice president of Watermargin Cooperative. 
+      </p>
+      <p>My time at Cornell would've been much harder for me had it not been for my pet parrot BMO, who I brought to Ithaca in 2018 and now
+        continues to live with me back in Texas. I enjoy bird-watching, needle felting, embroidering, cooking, playing piano, and learning about insects
+        in my free time.
+       </p>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center footer">
+  <p>Website made with love by Viri Garcia</p>
+</footer>
+
+</body>
